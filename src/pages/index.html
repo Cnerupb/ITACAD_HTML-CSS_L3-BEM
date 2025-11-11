@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BEM-BEM-BEM</title>
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="header__logo">Logo</a>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#">Home</a></li>
+        <li class="header__nav-item"><a href="#">Shop</a></li>
+      </ul>
+    </nav>
+    <button class="header__login-btn">Login</button>
+  </header>
+
+  <main>
+    <!-- Products Grid -->
+    <div class="products-grid">
+      <div class="card">
+        <img class="card__image" src="/src/assets/SCI-1.jpg" alt="Product 1">
+        <h2 class="card__title">Product 1</h2>
+        <p class="card__price">$99</p>
+        <button class="card__buy-btn">Buy</button>
+      </div>
+      <div class="card">
+        <img class="card__image" src="/src/assets/SCI-1.jpg" alt="Product 2">
+        <h2 class="card__title">Product 2</h2>
+        <p class="card__price">$149</p>
+        <button class="card__buy-btn">Buy</button>
+      </div>
+      <div class="card">
+        <img class="card__image" src="/src/assets/SCI-1.jpg" alt="Product 3">
+        <h2 class="card__title">Product 3</h2>
+        <p class="card__price">$199</p>
+        <button class="card__buy-btn">Buy</button>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+
+    <!-- Subscribe Form -->
+    <form class="subscribe-form">
+      <input class="subscribe-form__input" type="email" placeholder="Email">
+      <button class="subscribe-form__btn">Subscribe</button>
+    </form>
+  </main>
+</body>
+
+</html>
